@@ -1,22 +1,25 @@
 # facebook-scraper v1.0
 
-Facebook scraper is a project where you can get the public Groups IDs named after a certain topic (eg. physics) in addition to get all the members' IDs given a group's ID.
+Facebook scraper is a automated data collection from facebook tool which you can get the public Groups IDs named after a certain topic (eg. physics) in addition to get all the members' IDs given a group's ID.
 
-Firefox must be installed on your windows machine to be able to execute that code.
+This tool could help the companies to find their targeted future clients easily to contact them later for advertising.
+
+
+Note: Firefox must be installed on your windows machine to be able to execute that code.
 
 dependencies:
 
-    python 3.x
-    time
-    re
-    urllib
-    selenium
-    os
-    json
-    pathlib
+        python 3.x
+        time
+        re
+        urllib
+        selenium
+        os
+        json
+        pathlib
     
     
-To initialize the Firefox driver found in [./driver-firefox/geckodriver](link):
+To initialize the Firefox driver found in [./driver-firefox/geckodriver](https://github.com/Ahmed15497/facebook-scraper/blob/main/driver-firefox/geckodriver.exe):
 
         from config_vars import ConfigurationDriver
         from functions_facebook_login import init_driver
@@ -53,7 +56,7 @@ To get the first 250 results of facebook members' IDs that joind a specific grou
 
         
     
-Clone this repositiory and check [scrapper_example.py](link) that illustrates an example that use all classes and methods.
+Clone this repositiory and check [scrapper_example.py](https://github.com/Ahmed15497/facebook-scraper/blob/main/scraper_example.py) that illustrates an example that use all classes and methods.
 
 
 
