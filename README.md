@@ -1,8 +1,10 @@
 # facebook-scraper v1.0
 
-Facebook scraper is a automated data collection from facebook tool which you can get the public Groups IDs named after a certain topic (eg. Machine learning) in addition to getting all the members' IDs given a group's ID.
+The Facebook scraper is an automated data collection from the Facebook tool in which you can get the public Groups IDs named after a certain topic (eg. Machine learning) in addition to getting all the members' IDs given a group's ID.
 
 This tool could help the companies to find their targeted future clients easily to contact them later for advertising.
+
+
 
 
 Note: Firefox must be installed on your windows machine to be able to execute that code.
